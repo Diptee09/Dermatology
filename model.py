@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 
 # Load dataset
-df = pd.read_csv("C:/Users/DELL/Desktop/Dermatology_App/dermatology.data", header=None)
+df = pd.read_csv("dermatology.data", header=None)
 
 # Replace '?' with NaN
 df = df.replace('?', np.nan)
